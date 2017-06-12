@@ -1,3 +1,5 @@
 /* global angular */
 
-angular.module('githubApp', [])
+angular.module('githubApp', [
+  'profileView'
+])
