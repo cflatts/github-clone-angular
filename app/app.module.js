@@ -2,5 +2,6 @@
 
 angular.module('githubApp', [
   'userSearch',
-  'reposList'
+  'reposList',
+  'userInfo'
 ])
