@@ -1,3 +1,7 @@
 <div class = 'reposList col-md-6 col-md-offset-5'>
-    <p>Ok this one is working now</p>
+    <ul class = 'repos'>
+        <li ng-repeat = 'repo in $ctrl.repo' class = 'repo'>
+            <p class = 'repoName'>{{repo.name}}</p>
+        </li>
+    </ul>
 </div>

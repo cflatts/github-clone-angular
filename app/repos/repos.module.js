@@ -1,3 +1,3 @@
 /* global angular */
 
-angular.module('reposList', [])
+angular.module('reposList', ['core.repo'])

@@ -1,3 +1,3 @@
 /* global angular */
 
-angular.module('user', ['core.user', 'core.repo'])
+angular.module('core', ['core.user', 'core.repo'])
