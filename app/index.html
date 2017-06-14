@@ -12,12 +12,20 @@
   <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/normalize.css">
   <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/main.css">
   <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+  <link rel="stylesheet" href="userInfo/user-info.styles.css" />
+  <link rel="stylesheet" href="repos/repos.styles.css" />
   <script src="bower_components/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 <body>
-    <user-search></user-search>
-    <repos-list></repos-list>
-    <user-info></user-info>
+    <div class = 'container'>
+        <div class = 'row'>
+            <user-search></user-search>
+        </div>
+        <div class = 'row'>
+            <user-info></user-info>
+            <repos-list></repos-list>
+        </div>
+    </div>
 
   <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
