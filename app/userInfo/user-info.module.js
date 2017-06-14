@@ -1,3 +1,3 @@
 /* global angular */
 
-angular.module('userInfo', [])
+angular.module('userInfo', ['core.user'])
